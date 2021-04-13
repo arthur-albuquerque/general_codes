@@ -1,16 +1,18 @@
+library(tidyverse)
+
 #Skeptical prior parameters
-mean_skeptical_prior = 0 # Prior ARD mean
-sd_skeptical_prior = sd_data_prior # Prior SD
+mean_skeptical_prior = 0 # Prior mean
+sd_skeptical_prior = 0.04 # Prior SD
 
 #Optimistic prior parameters
 
-mean_optimistic_prior = -0.05   # Prior ARD mean
-sd_optimistic_prior = sd_data_prior # Prior SD
+mean_optimistic_prior = -0.05   # Prior mean
+sd_optimistic_prior = sd_skeptical_prior # Prior SD
 
 #Pessimistic prior parameters
 
-mean_pessimistic_prior = 0.05  # Prior ARD mean
-sd_pessimistic_prior = sd_data_prior # Prior SD
+mean_pessimistic_prior = 0.05  # Prior mean
+sd_pessimistic_prior = sd_skeptical_prior # Prior SD
 
 #Non-informative prior parameters
 
