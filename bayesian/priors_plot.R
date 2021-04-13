@@ -1,9 +1,4 @@
 #Skeptical prior parameters
-
-mean_data_prior = -0.02 # Prior ARD mean
-sd_data_prior = 0.04 # Prior SD
-
-#Skeptical prior parameters
 mean_skeptical_prior = 0 # Prior ARD mean
 sd_skeptical_prior = sd_data_prior # Prior SD
 
