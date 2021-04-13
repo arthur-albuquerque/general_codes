@@ -47,6 +47,7 @@ plot_prior = ggplot(data = data.frame(x = c(-0.2, 0.2)), aes(x)) +
                 args = list(mean =mean_noninformative_prior,
                             sd = sd_noninformative_prior), aes(colour = "Não informativa"),
                 linetype = 1, size = 1) + 
+  
   geom_vline(xintercept = 0, color="grey70", linetype = 2) +
   
   scale_colour_manual("Priors",values = pal) +   # legend
